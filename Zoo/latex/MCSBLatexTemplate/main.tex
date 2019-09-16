@@ -1,0 +1,45 @@
+%%%%%%%%%%%%%%%%%%%%%%% Preamble to Document %%%%%%%%%%%%%%%%%%%%%%% 
+% Set type of document to article
+\documentclass{article}
+
+% Encoding for document, allows for use of characters beyond ASCII
+\usepackage[utf8]{inputenc}
+
+% Math symbols
+\usepackage{amsmath}
+
+% Change margins
+\usepackage[margin=1in]{geometry}
+
+% Control page headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+% Change text colors
+\usepackage[dvipsnames,table]{xcolor}
+
+% Produce hypertext links in the document
+\usepackage{hyperref}
+
+%Write Chemical Equations: 
+\usepackage{mhchem}
+
+%Bibliography Resources
+\usepackage[sorting = none]{biblatex}
+\addbibresource{references.bib}
+
+% Set the default indentation to be none
+\setlength\parindent{0pt}
+
+% Graphics package 
+\usepackage{graphicx}
+
+% Set the header 
+\lhead{Peter Anteater \\ UCI ID Number } % Left header (Name and Student ID Number)
+\chead{\textbf{\large LaTeX Template}} % Center header (Title)
+\rhead{MCSB Bootcamp \\ \today} % Right header (Class Name & today's date)
+
+%%%%%%%%%%%%%%%%%%%%%%% Begin Document %%%%%%%%%%%%%%%%%%%%%%% 
+\begin{document}
+Hello World!
+\end{document}
